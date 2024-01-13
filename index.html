@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="kontener">
+        <div id="menuGlowne" style="display: block;">
+            <button onclick="startGame()">Start Gry</button>
+            <button onclick="pokazWyzniki()">Najlepsze Wyniki</button>
+        </div>
+        <div class="Score-board" id="tablicaScoreow" style="display: none;">Score: 0</div>
+        <canvas id="gameCanvas" width="600" height="600" style="display: none;"></canvas>
+        <div id="przegrana" style="display: none;">
+            <button onclick="resetGry()">Restart</button>
+            <button onclick="powrotMenu()">Wroc do menu</button>
+        </div>
+        <div id="ScoreiPanel" style="display: none;">
+            <div id="Scorei"></div>
+            <button onclick="resetScoreow()">Resetuj Wyniki</button>
+            <button onclick="powrotDoMenu()">Powrot do Menu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</html>
+</body>

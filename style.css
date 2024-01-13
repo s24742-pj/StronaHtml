@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: white;
+    }
+    .kontener {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    background-color: #353b48;
+    border-radius: 10px;
+    text-align: center;
+    }
+    #menuGlowne, #przegrana, #Scorei, #ScoreiPanel {
+    margin: 20px 0;
+    }
+    button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 50%;
+    }
+    button:hover {
+    background-color: #45a049;
+    }
+    canvas {
+    background-color: #ffffff;
+    margin: auto;
+    border: 10px solid #333333;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+    }
+    .Score-board {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border-radius: 5px;
+    }
